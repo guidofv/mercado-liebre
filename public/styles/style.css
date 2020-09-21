@@ -1,0 +1,43 @@
+header{
+    background-color: #EAC926;
+}
+
+header a{
+    text-decoration: none;
+    color: #03264c;
+}
+
+.light-blue{
+    color: #1259c3
+}
+.green{
+    color: #39B54A
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 24px;
+    color: #666;
+    background-color: #ebebeb;
+}
+
+#price{
+    font-size: 18px;
+}
+
+#discount{
+    font-size: 16px;
+    color: #39B54A;
+}
+
+h3{
+    font-size: 16px;
+}
+
