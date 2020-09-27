@@ -4,6 +4,7 @@
 }
 
 body{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -17,16 +18,33 @@ body{
     text-align:center;
 }
 
-/* #navegacion .hamburger{ */
-    /* font-size: 60px; */
-    /* text-align: center; */
-/* } */
+#navegacion .hamburger{
+    width: 40px;
+    height: 40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#navegacion .hamburger:hover{
+    background-color: #0022AA;
+    cursor: pointer;
+}
 
 #navegacion:hover ul{
     display: block;
     list-style: none;
     text-align: center;
     padding: 0;
+}
+
+.banner{
+    width: 100%;
+    display: block;
 }
 
 header{
@@ -45,10 +63,6 @@ header a{
     color: #39B54A
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
 p{
     font-size: 12px;
 }
@@ -57,7 +71,17 @@ h2{
     font-size: 24px;
     color: #666;
     background-color: #ebebeb;
+    margin: 20px 0;
 }
+
+#main-index{
+    margin: 0;
+    padding: 0;
+    align: center;
+    width: 90%;
+    padding: 0 15px;
+}
+
 
 #price{
     font-size: 18px;
