@@ -12,13 +12,6 @@ body{
     display: none;
 }
 
-#navegacion .hamburger-container{
-    padding: 5px;
-    border-radius: 6px;
-    background-color: blue;
-    width: 40px;
-    font-size: 32px;
-}
 
 #navegacion{
     text-align:center;
