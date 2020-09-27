@@ -1,3 +1,41 @@
+
+.w50{
+    width: 50%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+#navegacion ul{
+    display: none;
+}
+
+#navegacion .hamburger-container{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: blue;
+    width: 40px;
+    font-size: 32px;
+}
+
+#navegacion{
+    text-align:center;
+}
+
+/* #navegacion .hamburger{ */
+    /* font-size: 60px; */
+    /* text-align: center; */
+/* } */
+
+#navegacion:hover ul{
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
 header{
     background-color: #EAC926;
 }
@@ -41,3 +79,8 @@ h3{
     font-size: 16px;
 }
 
+input,
+form,
+button{
+    font-size: 40px;
+}
