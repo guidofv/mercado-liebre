@@ -1,18 +1,43 @@
-
-.w50{
-    width: 50%;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
-    
+
+.w50 {
+    width: 50%,
+}
+
+#upper-nav{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#upper-nav img {
+    text-align: left;
+}
+#search {
+    margin: 5%;
+    font-size: 30px;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+
 #navegacion ul{
     display: none;
 }
-
 
 #navegacion{
     text-align:center;
@@ -75,15 +100,35 @@ h2{
 }
 
 #main-index{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    align: center;
+    text-align: center;
     width: 90%;
     padding: 0 15px;
+    display: inline;
+}
+
+#main-login {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+main form #input-login {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 0px;
 }
 
 
-#price{
+article{
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.price{
     font-size: 18px;
 }
 
@@ -96,8 +141,10 @@ h3{
     font-size: 16px;
 }
 
-input,
-form,
-button{
-    font-size: 40px;
+footer {
+    padding: 20px 5%;
+}
+
+footer article {
+    margin: 20px 0;
 }
