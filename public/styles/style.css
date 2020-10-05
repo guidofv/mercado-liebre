@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -121,6 +120,9 @@ main form #input-login {
     border: 0px;
 }
 
+.product-cards {
+    background-color: #ebebeb;
+}
 
 article{
     margin: 20px;
